@@ -5,7 +5,7 @@
 const express = require('express');
 const path = require('path');
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 4242;
 const publicPath = '/';
 
 const distDir = path.join(__dirname, 'dist');
@@ -18,5 +18,5 @@ app.use(publicPath, express.static(websiteDir));
 app.use(publicPath, express.static(distDir));
 
 app.listen(port, function () {
-  console.log(`App listening on: http://localhost:${port}`);
+  console.log(`App listening on port: ${port}`);
 });

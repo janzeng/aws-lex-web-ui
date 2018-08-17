@@ -1,14 +1,14 @@
 {
   "cognito": {
-    "poolId": ""
+    "poolId": "us-east-1:c078ed9b-7a2f-4dcd-92b6-6c94af6c0b26"
   },
   "lex": {
-    "botName": "OrderFlowers",
+    "botName": "WebUiOrderFlowers",
     "initialText": "You can ask me for help ordering flowers. Just type \"Buy flowers\" or click on the mic and say it.",
     "initialSpeechInstruction": "Say 'Buy Flowers' to get started."
   },
   "ui": {
-    "parentOrigin": "",
+    "parentOrigin": "https://lex-web-ui-codebuilddeploy-1aezc8u4q-webappbucket-rb2fmdq90ris.s3.amazonaws.com",
     "toolbarTitle": "Order Flowers",
     "toolbarLogo": "",
     "pushInitialTextOnRestart": false
@@ -20,7 +20,7 @@
     "preset": "speech_recognition"
   },
   "iframe": {
-    "iframeOrigin": "",
+    "iframeOrigin": "https://lex-web-ui-codebuilddeploy-1aezc8u4q-webappbucket-rb2fmdq90ris.s3.amazonaws.com",
     "iframeSrcPath": "/index.html#/?lexWebUiEmbed=true",
     "shouldLoadIframeMinimized": true
   }
